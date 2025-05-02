@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Bildergalerie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Willkommen in meiner Bildergalerie!</h1>
+    <div class="gallery">
+        <!-- Beispielbilder -->
+        <img src="images/bild1.jpg" alt="Bild 1">
+        <img src="images/bild2.jpg" alt="Bild 2">
+        <img src="images/bild3.jpg" alt="Bild 3">
+        <!-- Weitere Bilder folgen hier -->
+    </div>
+</body>
+</html>
