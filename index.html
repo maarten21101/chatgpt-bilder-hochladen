@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Bildergalerie</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            text-align: center;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zimmer Vibe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .upload-box {
+      margin-top: 30px;
+      font-size: 1em;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <h1>Willkommen in meiner Bildergalerie!</h1>
-    <div class="gallery">
+  <h1>My Zimmer Vibe ✨</h1>
+  <p>Hier sind Bilder für chat mit akhi.</p>
 
-        
-        <!-- Weitere Bilder folgen hier -->
-    </div>
-<img src="images/bildname.jpg" alt="Bildbeschreibung">
+ 
 
+  <div class="upload-box">
+    <p>📸 Eigene Bilder hinzufügen? Einfach in den Ordner <code>/images/</code> hochladen.</p>
+  </div>
 </body>
 </html>
-
